@@ -1,0 +1,44 @@
+node_modules
+# Dependencies
+/node_modules
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+.next
+out
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS/system files
+.DS_Store
+Thumbs.db
+
+# IDE/editor files
+.vscode
+.idea
+
+# Optional: ignore compiled TypeScript files
+*.tsbuildinfo
+
+# Optional: log or debug dumps
+*.log
+
+# MacOS specific
+.AppleDouble
+.LSOverride
+
+# Optional: coverage from tests
+coverage/
+
+# Optional: dotenv backup
+.env.backup*
+.
