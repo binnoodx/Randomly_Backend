@@ -15,7 +15,6 @@ const io = new Server(server, {
   }
 });
 
-// { socketId: string, email: string }
 
 let users = [];
 
